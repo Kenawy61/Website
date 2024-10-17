@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب المحامي فيصل بن حمود الهذال</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Cairo', sans-serif;
+            color: #ffffff;
+        }
+        .container {
+            background-image: url('./design1.jpg'); /* ضع هنا اسم ملف الصورة الخلفية */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .logo {
+            width: 150px; /* اضبط هذا الحجم حسب حجم اللوجو الخاص بك */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .content {
+            text-align: center;
+            max-width: 800px;
+        }
+        .services-title {
+            font-size: 3em;
+            margin: 0;
+            color: #cdad7d; /* اللون المطلوب */
+            font-family: 'Alarabiya'; /* استخدام الخط المطلوب */
+        }
+        .quality-title {
+            font-size: 2.5em;
+            margin: 10px 0 20px;
+            color: #cdad7d; /* اللون المطلوب */
+            font-family: 'Alarabiya'; /* استخدام الخط المطلوب */
+        }
+        .mission-statement {
+            font-size: 1.4em;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+            font-family: 'XM Vahid'; /* الخط المستخدم للنص الأبيض */
+        }
+        .cta-button {
+            background-color: #cdad7d;
+            color: #ffffff;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.4em;
+            font-family: 'Inter', sans-serif; /* الخط المستخدم للزرار */
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #c19b26;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./اللوجو.png" alt="شعار مكتب المحاماة" class="logo">
+        <div class="content">
+            <h2 class="services-title">خدمات قانونية</h2>
+            <h3 class="quality-title">رفيعة المستوى</h3>
+            
+            <p class="mission-statement">
+                نسعى أن نكون جهة الاستشارات الموثوقة<br>
+                التي يعتمد عليها لجودة وسلامة الإجراءات<br>
+                القانونية المتبعة في قطاع الأعمال والأفراد.
+            </p>
+            
+            <button class="cta-button">اتصل الآن</button>
+        </div>
+    </div>
+</body>
+</html>
